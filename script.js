@@ -2,7 +2,7 @@ const statement = document.getElementById("statement");
 const optionButtons = document.querySelectorAll(".choice");
 const explanation = document.getElementById("explanation");
 const score = document.getElementById("score");
-const nextqs = document.getElementsByClassName("nextqs");
+const nextqs = document.getElementById("nextqs");
 const facts = [
     {
     statement: "Is 1+1 == '2' same as 1+1 === '2'",
