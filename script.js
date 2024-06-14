@@ -20,9 +20,9 @@ const facts = [
     explanation: "javScript was developed in a mere time of just 10 days initially"
     },
     {
-    statement: "Is 1+1 == '2' same as 1+1 === '2'",
-    option: "false",
-    explanation: "'===' operator compares the type of data too whereas the '==' only compares the face value of the data"
+    statement: "JAVAScript was developed in 1995",
+    option: "true",
+    explanation: "Brendan Eich, a programmer at Netscape Communications, developed JavaScript in 1995"
     }
 ]
 
