@@ -1,0 +1,55 @@
+*{
+font-family: 'Poppins', Courier, monospace;
+}
+
+header{
+    width: 50%;
+    margin: 1em auto;
+}
+
+#statement{
+    width: 50%;
+    min-height: 2em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 5px gray;
+    margin: 1em auto; 
+    text-align: center;
+    font-size: x-large;
+    padding: 1rem;
+}
+
+#options{
+    width: 50%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.choice{
+    font-size: large;
+    border-radius: 5px;
+    border: 2px 2px solid black;
+}
+
+.nextqs{
+    font-size: large;
+    border: none;
+}
+
+#explanation,#score{
+    padding: 1rem;
+    text-align: center;
+}
+
+#next{
+    position: relative;
+    left: 67.5%;
+}
+.correct{
+    background-color: lightgreen;
+}
+
+.incorrect{
+    background-color: lightpink;
+}
